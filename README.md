@@ -6,11 +6,13 @@
 
 <!-- PROJECT LOGO -->
 <br />
+<!-- PROJECT LOGO 
 <p align="left">
   <a >
     <img src="https://github.com/VenuDhanekula/LogoImages/blob/main/OpenCV_Logo.png" alt="Logo" width="200">
   </a>
 </p>
+-->
 
 # ServerMoniteringSendEmail Using Python
 
@@ -28,7 +30,6 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#opencv-installation">OpenCV Installation</a></li>
         <li><a href="#clone-project">Clone Project</a></li>
       </ul>
     </li>
@@ -46,7 +47,7 @@ Steps To Be Followed
 
 * First, Run the Run python file which will help to to get to know the option in the code
   ```sh
-   python 1.Run.py
+   python Run.py
    ```
 
 
@@ -58,9 +59,14 @@ You will be directed to the respective page for purchase / learning.
 * [Python](https://www.python.org/)
 
 Python Libraries Used.
-* [NumPy](https://numpy.org/)
-* [Pillow](https://pypi.org/project/Pillow/)
-* [Open CV](https://docs.opencv.org/master/d3/df2/tutorial_py_basic_ops.html)
+* Socket
+* SSL
+* Subprocess
+* Pickle
+* [C Fonts](https://pypi.org/project/python-cfonts/)
+  ```sh
+   pip install python-cfonts
+   ```
 
 
 
@@ -69,24 +75,7 @@ Python Libraries Used.
 
 This is how you can follow the instructions on setting up the project and running the file in the local system.
 
-### OpenCV Installation
 
-1. One line command promt installer.
-   ```sh
-   pip install opencv-python
-   pip install opencv-contrib-python
-   ```
-2. Complete installation (Below mentioned link gives the detailed information of installing the OpenCV in Raspberry Pi)
-   <br />
-   
-   * [Installation Link](https://robu.in/how-to-install-opencv-in-raspberry-pi/)
-   
-   <br />
-3. Check the Open CV version (Output will be the installed version of the Open CV (i.e., 3.0.0 or 3.1.2)
-   ```sh
-   import cv2
-   print(cv2.__version__)
-   ```
 ### Clone Project
 
 1. get a local copy up and running follow cloning steps.
